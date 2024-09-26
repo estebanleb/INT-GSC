@@ -1,0 +1,58 @@
+body {
+    background-color: #f3f3f3;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-items: left;
+    justify-content: space-around;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header {
+    background-color: #599C7F;
+}
+
+#C2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#C11 {
+    width: 100%;
+}
+
+#C12 {
+    background-color: #AE1F1F;
+    align-content: start;
+}
+
+#titreTEAM {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700; 
+    font-style: normal;
+    font-size: 70px;
+}
+
+#nosvaleurs {
+display: flex;
+align-content: center;
+margin-bottom: 100px;
+}

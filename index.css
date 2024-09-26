@@ -160,3 +160,110 @@ img {
     z-index: 100;
     transition: left 0.65s ease-out;
 }
+
+.form-container {
+    width: 100%;
+    max-width: 70%;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700; 
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; 
+    font-style: normal;
+    font-size: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #AE1F1F;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700; 
+    font-style: normal;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #599C7F;
+}
+
+/* Espacement entre les options dans fieldset */
+label {
+    margin-right: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; 
+    font-style: normal;
+    font-size: 15px;
+}
+
+/* Centrage du formulaire sur la page */
+.form-container {
+    text-align: left;
+    margin: auto;
+}
+
+.footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: #599C7F;
+}

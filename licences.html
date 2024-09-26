@@ -25,5 +25,96 @@
             <a href="partenaires.html">Partenaires</a>
             <a href="licences.html">Licences</a>
         </div>
-
     </header>
+
+    <div id="hero"></div>
+    <div id="C1">
+        <div id="C11">
+            <img class="banniereEQUIPES" src="baniereLICENCES.webp" alt="hero" title="banniere equipes" />
+        </div>
+        <div id="C12">
+            <H6> <br> <br> </H6>
+        </div>
+    </div>
+
+    <div id="TEAM">
+
+        <div id="titreTEAM" <h2>REJOIGNEZ LA GSC !</h2>
+        </div>
+        <div id="C2">
+            <h3>Vous souhaitez rejoindre la grande famille de la GSC Moréac ? Que vous soyez senior, jeune joueur ou
+                joueuse, ou encore que vous aspiriez à rejoindre notre toute nouvelle équipe féminine, il est simple de
+                prendre votre licence !
+
+                Il suffit de remplir notre formulaire d’inscription en ligne pour valider votre adhésion et faire partie
+                de notre club. Que vous veniez pour la compétition ou pour le plaisir du jeu, la GSC Moréac vous
+                accueille avec des infrastructures de qualité, un encadrement professionnel et une ambiance conviviale.
+                N’attendez plus, rejoignez-nous et portez fièrement les couleurs rouge et verte ! ❤️💚
+            </h3><br>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <h2>Formulaire d'inscription licences FFF</h2>
+        <form action="#" method="POST">
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="age">Âge :</label>
+            <input type="number" id="age" name="age" min="1" required>
+
+            <label for="telephone">Numéro de téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" placeholder="0123456789" required>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Statut -->
+            <fieldset>
+                <legend>Statut :</legend>
+                <input type="radio" id="non-mute" name="statut" value="non-mute" required>
+                <label for="non-mute">Non muté</label>
+
+                <input type="radio" id="licencie-club" name="statut" value="licencie-club" required>
+                <label for="licencie-club">Licencié club</label>
+            </fieldset>
+
+            <!-- Projet -->
+            <fieldset>
+                <legend>Projet :</legend>
+                <input type="checkbox" id="equipe-a" name="projet" value="Equipe A">
+                <label for="equipe-a">Équipe A</label>
+
+                <input type="checkbox" id="equipe-b" name="projet" value="Equipe B">
+                <label for="equipe-b">Équipe B</label>
+
+                <input type="checkbox" id="equipe-c" name="projet" value="Equipe C">
+                <label for="equipe-c">Équipe C</label>
+
+                <input type="checkbox" id="veterans" name="projet" value="Veterans">
+                <label for="veterans">Vétérans</label>
+
+                <input type="checkbox" id="feminines" name="projet" value="Feminines">
+                <label for="feminines">Féminines</label>
+
+                <input type="checkbox" id="jeunes" name="projet" value="Jeunes">
+                <label for="jeunes">Jeunes</label>
+            </fieldset>
+
+            <button type="submit">S'inscrire</button>
+
+        </form>
+        <div id="C12"></div>
+        <H6> <br> <br> </H6>
+    </div>
+    <br>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <br> 2024 Esteban Le Breton et Maïwenn Lopin. Tous droits réservés.<br> </p>
+        </div>
+    </footer>
+    </div>
